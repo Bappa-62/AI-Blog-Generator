@@ -1,0 +1,9 @@
+{
+    "topic": "Agentic AI",
+    "language": "Bengali",
+    "tone": "professional",
+    "word_count": 1000,
+    "generate_x": true,
+    "generate_linkedin": true,
+    "generate_instagram": false
+}
