@@ -49,10 +49,10 @@ class BlogNode:
                 HumanMessage(content=prompt.format(language = state['language'],blog_content = blog_content))
             ]
 
-            response = self.llm.with_structured_output(Blog).invoke(messages)
+            response = self.llm.invoke(messages)
             return {
             "blog": {
-                "title": response.title,
+                "title": state["blog"]["title"],
                 "content": response.content
             }
         }
