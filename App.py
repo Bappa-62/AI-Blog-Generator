@@ -9,9 +9,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 app = FastAPI()
+## CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["https://ai-blog-generator-murex.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
