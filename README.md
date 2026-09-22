@@ -1,2 +1,2 @@
-### END to END Blog and Social Media Generation Using React and Fast API 
+### END to END Blog Generation Using React and Fast API 
 
